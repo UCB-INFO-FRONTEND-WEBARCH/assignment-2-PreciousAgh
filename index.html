@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <!-- Link your CSS file and other references here -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <!-- Content goes here -->
+    <!-- Header starts -->
+    <header class="main_header">
+        <div class="header_content">
+            <img src="assets/menu_icon.png" alt="Menu" class="menu_icon">
+            <div class="search_container">
+                <img src="assets/search_icon.png" alt="Search" class="search_icon">
+                <input type="text" placeholder="Quick find" class="quick_find">
+            </div>
+            <div class="count_task">
+                <img src="assets/check_icon.png" alt="Checkmark" class="check_icon">
+                <span class="counter_text">30/5</span>
+            </div>
+        </div>
+    </header>
+      <!-- Header ends -->
+
+    <div class="container">
+
+        <!-- Left Nav starts -->
+
+        <nav class="sidebar">
+            <ul class="nav_list">
+                <li class="nav_item active">
+                    <img src="assets/inbox_icon.png" alt="Inbox" class="nav_icon">
+                    <span class="nav_text">Inbox</span>
+                    <span class="nav_count">5</span>
+                </li>
+                <li class="nav_item">
+                    <img src="assets/calendar_icon.png" alt="Today" class="nav_icon">
+                    <span class="nav_text">Today</span>
+                    <span class="nav_count">5</span>
+                </li>
+                <li class="nav_item">
+                    <img src="assets/upcoming_icon.png" alt="Upcoming" class="nav_icon">
+                    <span class="nav_text">Upcoming</span>
+                </li>
+            </ul>
+        </nav>
+        <!-- Left Nav ends -->
+
+        <!-- Main Content starts -->
+
+        <main class="main_content">
+            <h1 class="content_header">Inbox</h1>
+            <ul class="task_list">
+                <li class="task_item">
+                    <input type="checkbox" class="task_checkbox" id="task1">
+                    <label for="task1" class="task_label">Call Mom</label>
+                </li>
+                <li class="task_item">
+                    <input type="checkbox" class="task_checkbox" id="task2">
+                    <label for="task2" class="task_label">Buy the new issue of Scientific American</label>
+                </li>
+                <li class="task_item">
+                    <input type="checkbox" class="task_checkbox" id="task3">
+                    <label for="task3" class="task_label">Return the textbook to Josie</label>
+                </li>
+                <li class="task_item">
+                    <input type="checkbox" class="task_checkbox" id="task4">
+                    <label for="task4" class="task_label">Buy the new album by Rake</label>
+                </li>
+                <li class="task_item">
+                    <input type="checkbox" class="task_checkbox" id="task5">
+                    <label for="task5" class="task_label">Buy a gift card for Dad</label>
+                </li>
+            </ul>
+        </main>
+          <!-- Main Content ends -->
+    </div>
+</body>
+</html>

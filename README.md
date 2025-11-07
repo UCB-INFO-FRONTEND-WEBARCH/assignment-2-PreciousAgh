@@ -1,5 +1,38 @@
+
+## To see my work the Setup Instructions
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Open in browser:**
+   The app will be available at `http://localhost:5173/`
+
+## Features
+
+- Add new tasks
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Filter tasks (All, Active, Completed)
+- Task counter that updates based on filter
+- Responsive design matching Assignment 1
+
+## Technologies Used
+
+- React 18.3.1
+- Vite 5.4.0
+
+---
+
 # Assignment 2: React Task Manager
 ## INFO 153A/253A Front-End Web Architecture - Fall 2025
+
 
 **Points:** 100 points  
 **Individual Assignment**
